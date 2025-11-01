@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
 
-## Getting Started
+A responsive portfolio website showcasing data analytics, automation, and research projects. Built from scratch with **Next.js** and **Tailwind CSS**, and deployed on **Vercel**.
 
-First, run the development server:
+**Live Site:** [noahpettinato.vercel.app](https://noahpettinato.vercel.app)  
+**GitHub Repo:** [Portfolio Site](https://github.com/noahpettinato/portfolio-site)
+
+---
+
+## Overview
+
+This website serves as my personal hub for professional projects, combining academic research and applied data analytics work. It highlights technical skills across:
+- Python (ETL, data automation, analytics)
+- MATLAB (numerical PDE solvers)
+- SQL, Power BI, Tableau (dashboards and reporting)
+- AWS (cloud pipeline design)
+
+Each project page includes a short description, tech stack, and GitHub repository link.
+
+---
+
+## Tech Stack
+
+- **Framework:** [Next.js](https://nextjs.org/)  
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)  
+- **Deployment:** [Vercel](https://vercel.com/)  
+- **Language:** TypeScript / React
+
+---
+
+## Running Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/noahpettinato/portfolio-site.git
+
+# Navigate to the project folder
+cd portfolio-site
+
+# Install dependencies
+npm install
+
+# Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open **http://localhost:3000** in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+portfolio-site/
+├── app/
+│   ├── page.tsx        # Main homepage and sections
+│   ├── layout.tsx      # Global layout
+├── public/             # Static assets and images
+├── components/         # Reusable UI components
+├── styles/             # Global Tailwind styles
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Responsive design (mobile-friendly)  
+- Clean project showcase layout  
+- Minimalist UI with subtle animations  
+- SEO-optimized structure for professional visibility  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source and available under the [MIT License](LICENSE).
