@@ -2,7 +2,7 @@
 
 A responsive portfolio website showcasing data analytics, automation, and research projects. Built from scratch with **Next.js** and **Tailwind CSS**, written in **TypeScript/React**, and deployed on **Vercel**.
 
-**Live Site:** https://noahpettinato.vercel.app  
+**Live Site:** https://noahpettinato.com/
 **Repo:** https://github.com/noahpettinato/portfolio-site
 
 ---
