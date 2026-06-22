@@ -644,7 +644,7 @@ export default function Home() {
       <footer className="text-center text-sm text-zinc-400 py-10 bg-zinc-900 border-t border-zinc-800">
         <div className="max-w-5xl mx-auto px-6">
           <p>
-            I built this site from scratch with Next.js and Tailwind CSS.{" "}
+            I built this site from scratch.{" "}
             <a
               href="https://github.com/noahpettinato/portfolio-site"
               target="_blank"

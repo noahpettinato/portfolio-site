@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
 
-## Getting Started
+A responsive portfolio website showcasing data analytics, automation, and research projects. Built from scratch with **Next.js** and **Tailwind CSS**, written in **TypeScript/React**, and deployed on **Vercel**.
 
-First, run the development server:
+**Live Site:** https://noahpettinato.vercel.app  
+**Repo:** https://github.com/noahpettinato/portfolio-site
+
+---
+
+## Overview
+
+This site presents my background as an emerging data analyst with a B.S. in Applied & Computational Mathematics and a minor in Computer Science. It emphasizes data systems and analytics through concise project writeups, an experience timeline, a structured skills matrix, and a contact section.
+
+---
+
+## Sections
+- Home/Hero (tagline, CTAs, social)
+- About (pipelines, modeling, dashboards)
+- Experience (Wagner Engineering; Mercor; OSU Research; Pettinato & Associates)
+- Skills (Programming, Data & Analytics, Dev & Collaboration, Technical Focus)
+- Projects (carousel with screenshots and source links)
+- Contact and Footer
+
+---
+
+## Projects
+
+- **Nonlinear Radiation Solver** — MATLAB solver for 1D heat diffusion with nonlinear radiation (Robin) boundaries using Newton’s method with analytic Jacobians and Backward Euler; compares FD vs CCFD for stability and convergence.  
+- **Financial Data Analysis (AAPL)** — EDA and ARIMA forecasting on seven years of AAPL with AIC/BIC tuning and residual diagnostics; visuals prepared for Power BI and Tableau.  
+- **Movie Data Analysis ETL** — End-to-end ETL and EDA for The Movies Dataset (Kaggle): cleaning, transformation, and insight generation; reproducible workflow.  
+- **Algorithms Portfolio** — Python implementations spanning recursion, greedy algorithms, dynamic programming, and regression; runtime benchmarking.  
+
+---
+
+## Tech Stack
+
+- **Framework:** Next.js  
+- **Styling:** Tailwind CSS  
+- **Language:** TypeScript/React  
+- **Deployment:** Vercel
+
+---
+
+## Running Locally
 
 ```bash
+# Clone the repository
+git clone https://github.com/noahpettinato/portfolio-site.git
+cd portfolio-site
+
+# Install dependencies
+npm install
+
+# Start the dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+portfolio-site/
+├── app/
+│   ├── page.tsx        # Main homepage and sections (hero, about, experience, skills, projects, contact)
+│   └── layout.tsx      # Global layout
+├── components/         # Reusable UI components
+├── public/             # Static assets (images: project screenshots, headshot)
+├── styles/             # Global Tailwind styles
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Sectioned, recruiter-friendly layout (About, Experience, Skills, Projects, Contact)
+- Project carousel with screenshots and direct GitHub links
+- Responsive design and accessible color contrasts
+- Minimalist UI with subtle transitions
+- Simple configuration via the `projects` array in `page.tsx`
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source and available under the MIT License.
