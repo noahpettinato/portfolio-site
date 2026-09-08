@@ -71,14 +71,14 @@ export default function Home() {
                   Noah <span className="text-[var(--term-cyan)]">Pettinato</span>
                 </h1>
                 <p className="mt-3 font-mono text-sm text-[var(--term-yellow)] sm:text-base">
-                  Emerging Data Analyst · Applied Mathematics &amp; Computer Science
+                  Data Analyst · Applied Mathematics &amp; Computer Science
                 </p>
                 <p className="mt-5 max-w-2xl text-base leading-relaxed text-[var(--term-text)] sm:text-lg">
-                  I’m an emerging data analyst with a background in applied mathematics and computer science.
-                  I build data pipelines, dashboards, and predictive models that turn raw data into
-                  clear, actionable insights. Skilled in SQL, Python, Power BI, and Tableau, with experience
-                  combining multi-source datasets, automating ETL workflows, and visualizing trends
-                  for technical and business users.
+                  I am a data analyst with a background in applied mathematics and computer science.
+                  I build data pipelines, dashboards, and predictive models that turn complex data into
+                  clear, actionable insights through reporting and automated workflows. Skilled in SQL,
+                  Python, Power BI, and Tableau, with experience combining multi-source datasets,
+                  automating ETL workflows, and visualizing trends for technical and business users.
                 </p>
                 <div className="mt-8 flex flex-wrap gap-3">
                   <a
@@ -121,7 +121,7 @@ export default function Home() {
                       fill
                       priority
                       sizes="288px"
-                      className="object-cover object-[center_24px]"
+                      className="object-cover object-[center_10px]"
                     />
                   </div>
                   <div className="absolute inset-x-0 top-0 z-10 flex items-center gap-2 border-b border-[var(--term-border)] bg-[var(--term-tab)] px-3 py-1.5 font-mono text-[11px] text-[var(--term-dim)]">
@@ -147,13 +147,12 @@ export default function Home() {
               <span className="text-[var(--term-dim)]"># </span>About
             </h2>
             <p className="mt-4 max-w-4xl text-base leading-relaxed sm:text-lg">
-              I’m a recent graduate from Oregon State University with a B.S. in Applied
-              and Computational Mathematics and a minor in Computer Science. My work blends
-              data engineering and analytics: collecting and cleaning complex data, validating
-              data quality, and building clear dashboards that drive decisions. I’ve developed pipelines
-              in SQL and Python, built predictive models in Python, implemented numerical solvers in MATLAB,
-              and created interactive dashboards in Power BI and Tableau. I enjoy solving open-ended problems
-              and building tools that make data easier to understand and use.
+              I graduated from Oregon State University with a B.S. in Applied and Computational
+              Mathematics and a minor in Computer Science. At Axos Bank I support commercial lending with
+              SSRS, Tableau, SQL Server, and Power Automate workflows. I have also built Python ETL pipelines,
+              contributed mathematics expertise for AI training at Mercor, and developed numerical solvers in
+              MATLAB during undergraduate research. I focus on reliable data, clear reporting, and tools that
+              help teams make better decisions.
             </p>
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               <InfoPane
