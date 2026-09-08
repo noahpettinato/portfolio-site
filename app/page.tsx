@@ -121,7 +121,7 @@ export default function Home() {
                       fill
                       priority
                       sizes="288px"
-                      className="object-cover object-[center_24px]"
+                      className="object-cover object-[center_10px]"
                     />
                   </div>
                   <div className="absolute inset-x-0 top-0 z-10 flex items-center gap-2 border-b border-[var(--term-border)] bg-[var(--term-tab)] px-3 py-1.5 font-mono text-[11px] text-[var(--term-dim)]">
