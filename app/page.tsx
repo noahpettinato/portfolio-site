@@ -114,19 +114,20 @@ export default function Home() {
 
               <aside className="justify-self-center lg:justify-self-end">
                 <div className="w-64 overflow-hidden rounded-sm border border-[var(--term-border)] bg-[var(--term-surface)] md:w-72">
-                  <div className="flex items-center gap-2 border-b border-[var(--term-border)] px-3 py-1.5 font-mono text-[11px] leading-none text-[var(--term-dim)]">
+                  <div className="flex items-center gap-2 border-b border-[var(--term-border)] px-3 py-1.5 font-mono text-[11px] text-[var(--term-dim)]">
                     <span className="h-2 w-2 rounded-full bg-[var(--term-green)]" />
                     headshot.png
                   </div>
-                  <Image
-                    src="/Headshot.png"
-                    alt="Noah Pettinato headshot"
-                    width={720}
-                    height={720}
-                    priority
-                    sizes="288px"
-                    className="block h-auto w-full"
-                  />
+                  <div className="relative mx-auto aspect-square w-full">
+                    <Image
+                      src="/Headshot.png"
+                      alt="Noah Pettinato headshot"
+                      fill
+                      priority
+                      sizes="288px"
+                      className="object-cover"
+                    />
+                  </div>
                 </div>
                 <div className="mt-4 rounded-sm border border-[var(--term-border)] bg-[var(--term-surface)] px-4 py-3 text-center">
                   <p className="font-mono text-sm text-[var(--term-bright)]">
