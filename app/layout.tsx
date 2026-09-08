@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import { Geist, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
-import { Analytics } from '@vercel/analytics/react';   
-import { SpeedInsights } from "@vercel/speed-insights/next"; 
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from "next/script";
 
 const geistSans = Geist({
@@ -10,14 +10,27 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
   title: "Noah Pettinato | Data Analyst Portfolio",
   description: "Portfolio of Noah Pettinato – Data Systems & Analytics",
+  openGraph: {
+    title: "Noah Pettinato | Data Analyst Portfolio",
+    description: "Portfolio of Noah Pettinato – Data Systems & Analytics",
+    url: "https://noahpettinato.com",
+    siteName: "Noah Pettinato",
+    type: "website",
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0c0c0c",
 };
 
 export default function RootLayout({
@@ -28,9 +41,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${jetbrainsMono.variable} antialiased`}
       >
-        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-Z5ZBK8SH4D"
           strategy="afterInteractive"
@@ -47,9 +59,9 @@ export default function RootLayout({
             `,
           }}
         />
-        
+
         {children}
-        <Analytics />  
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
