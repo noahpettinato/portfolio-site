@@ -3,12 +3,12 @@
 import { useEffect, useState } from "react";
 
 export const TABS = [
-  { id: "home", label: "home.ps1" },
-  { id: "about", label: "about.md" },
-  { id: "experience", label: "experience.ps1" },
-  { id: "skills", label: "skills.json" },
-  { id: "projects", label: "projects.ps1" },
-  { id: "contact", label: "contact.md" },
+  { id: "home", label: "Home" },
+  { id: "about", label: "About" },
+  { id: "experience", label: "Experience" },
+  { id: "skills", label: "Skills" },
+  { id: "projects", label: "Projects" },
+  { id: "contact", label: "Contact" },
 ] as const;
 
 export default function TabNav() {

@@ -433,7 +433,7 @@ function TitleBar() {
     <div className="flex h-9 items-center justify-between bg-[var(--term-tab)] pl-3 text-[var(--term-text)]">
       <div className="flex min-w-0 items-center gap-2 font-mono text-xs">
         <TerminalMark />
-        <span className="truncate">noahpettinato — powershell</span>
+        <span className="truncate">noahpettinato — portfolio</span>
       </div>
       <div className="flex h-full" aria-hidden="true">
         <span className="flex w-11 items-center justify-center text-[var(--term-dim)]">
