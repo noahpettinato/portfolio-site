@@ -121,7 +121,7 @@ export default function Home() {
                       fill
                       priority
                       sizes="288px"
-                      className="object-cover object-[center_10px]"
+                      className="object-cover object-[center_24px]"
                     />
                   </div>
                   <div className="absolute inset-x-0 top-0 z-10 flex items-center gap-2 border-b border-[var(--term-border)] bg-[var(--term-tab)] px-3 py-1.5 font-mono text-[11px] text-[var(--term-dim)]">
@@ -178,11 +178,11 @@ export default function Home() {
             </h2>
             <div className="mt-6 space-y-4">
               <ExperienceEntry
-                title="Data Operations Intern · Wagner Engineering"
-                dates="Oct 2025 – Present"
+                title="Jr. Data Analyst · Axos Bank"
+                dates="Jan 2026 – Present"
                 current
-                body="Automate extraction, cleaning, and structuring of Texas SmartBuy procurement data using Python, Playwright, and pandas. Develop cloud-ready ETL pipelines integrating web scraping and data transformation so the team can feed clean data directly into BI dashboards and automated workflows."
-                tags="Python · Playwright · pandas · ETL · automation · AWS"
+                body="Develop and optimize SQL-driven reporting and BI solutions using SSRS, Tableau, and Excel to support commercial lending operations. Partner with stakeholders to deliver custom dashboards and analytical solutions, and automate reporting workflows with Power Automate, SQL Server, and Python. Build SQL queries, stored procedures, and reporting infrastructure, including a natural-language data discovery platform integrating Collibra metadata to accelerate enterprise report development."
+                tags="SQL Server · SSRS · Tableau · Excel · Power Automate · Python · workflow automation · business intelligence"
               />
               <ExperienceEntry
                 title="Mathematics Expert (Contract) · Mercor"
@@ -190,6 +190,12 @@ export default function Home() {
                 current
                 body="Curate and author advanced undergraduate and master’s-level mathematics problems, evaluate and refine AI-generated reasoning for rigor and clarity, and provide subject matter expertise to strengthen datasets powering next-generation large language models."
                 tags="AI training · dataset curation · solution validation"
+              />
+              <ExperienceEntry
+                title="Data Operations Intern · Wagner Engineering"
+                dates="Oct 2025 – Jan 2026"
+                body="Automate extraction, cleaning, and structuring of Texas SmartBuy procurement data using Python, Playwright, and pandas. Develop cloud-ready ETL pipelines integrating web scraping and data transformation so the team can feed clean data directly into BI dashboards and automated workflows."
+                tags="Python · Playwright · pandas · ETL · automation · AWS"
               />
               <ExperienceEntry
                 title="Undergraduate Research Assistant · Oregon State University"
